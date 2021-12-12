@@ -8,11 +8,11 @@ Console.WriteLine("Введите ваше имя");
 string name = Console.ReadLine();
 Console.WriteLine("Введите вашу фамилию");
 string secandndname = Console.ReadLine();
-Console.WriteLine("Введите ваше возраст");
+Console.WriteLine("Введите ваш возраст");
 string age = Console.ReadLine();
-Console.WriteLine("Введите вашу рост");
+Console.WriteLine("Введите ваш рост");
 string hight = Console.ReadLine();
-Console.WriteLine("Введите ваше вес");
+Console.WriteLine("Введите ваш вес");
 string wight = Console.ReadLine();
 
 Console.WriteLine("Используя склеевание \nВаши данные: Имя - " +name + " ваша фамилия - " + secandndname + " Ваш возраст - " + age + " Ваш рост - " + hight + " Ваш вес - "+ wight);
