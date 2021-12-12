@@ -2,7 +2,14 @@
 //1.Написать программу «Анкета». Последовательно задаются вопросы (имя, фамилия, возраст, рост, вес). В результате вся информация выводится в одну строчку:
 //а) используя склеивание;
 //б) используя форматированный вывод;
-/
+//в) используя вывод со знаком $.
+
+Console.WriteLine("Введите ваше имя");
+string name = Console.ReadLine();
+Console.WriteLine("Введите вашу фамилию");
+string secandndname = Console.ReadLine();
+Console.WriteLine("Введите ваше возраст");
+string age = Console.ReadLine();
 Console.WriteLine("Введите вашу рост");
 string hight = Console.ReadLine();
 Console.WriteLine("Введите ваше вес");
